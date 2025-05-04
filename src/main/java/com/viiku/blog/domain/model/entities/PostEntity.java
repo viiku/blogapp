@@ -30,7 +30,7 @@ public class PostEntity extends BaseEntity {
 
     @Column(nullable = false)
     @Enumerated(EnumType.STRING)
-    private PostStatus postStatus;
+    private PostStatus status;
 
     @Column(nullable = false)
     private Integer readingTime;

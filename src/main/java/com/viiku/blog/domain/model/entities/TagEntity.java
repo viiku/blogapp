@@ -24,6 +24,6 @@ public class TagEntity {
     private String name;
 
     @ManyToMany(mappedBy = "tags")
-    private Set<PostEntity> postEntities;
+    private Set<PostEntity> posts;
 
 }
